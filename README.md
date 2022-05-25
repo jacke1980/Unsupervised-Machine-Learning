@@ -35,14 +35,21 @@ Create an elbow plot to identify the best number of clusters
 
 ![ElbowCuve_KMeans](https://user-images.githubusercontent.com/85952426/170316440-b7f84c0d-bbe8-4cef-a6e3-4dac1cba8006.png)
 
-### Recommendation
-1. 2D-Scatter plot with clusters
+The best k value is 4 so we will get an output of 4 clusters to categorize the crytocurrencies.
+
+
+### Visualizations
+1. 2D-Scatter plot with clusters: Two Components
 
 ![hvplot scatter(2)](https://user-images.githubusercontent.com/85952426/170317710-0c875fc1-fea1-4411-9e1b-b960b1ab4d25.png)
 
-2. 3D-Scatter plot with clusters
+2. 3D-Scatter plot with clusters: Three Components
 
 ![3D_PCA_Clusters](https://user-images.githubusercontent.com/85952426/170318330-10ea9e3d-e6b9-42a4-af04-c4a09792f948.png)
+
+3. 2D-Scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply"
+
+![hvplot scatter](https://user-images.githubusercontent.com/85952426/170320962-ea275bca-e713-4f72-abda-95fc9bba19c2.png)
 
 
 
